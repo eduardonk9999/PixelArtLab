@@ -4,6 +4,8 @@
 
 Um editor de pixel art simples e intuitivo desenvolvido em HTML, CSS e JavaScript puro. Crie suas próprias obras de arte pixeladas com uma interface limpa e fácil de usar.
 
+🌐 **Acesse o projeto em:** [https://eduardonk9999.github.io/PixelArtLab/](https://eduardonk9999.github.io/PixelArtLab/)
+
 ## 📋 Sobre o Projeto
 
 O **Pixel Art Editor** é uma aplicação web que permite criar arte pixelada em uma grade de 24x24 pixels. Com uma paleta de cores expandida e um seletor de cores personalizado, você tem total liberdade criativa para dar vida às suas ideias.
@@ -60,15 +62,6 @@ PixelArteModel/
 ## 📱 Responsividade
 
 O projeto está preparado para dispositivos móveis e tablets com uma media query configurada para telas de até 768px de largura.
-
-## 🔮 Melhorias Futuras
-
-- [ ] Salvar e carregar projetos
-- [ ] Zoom in/out na grade
-- [ ] Ferramentas adicionais (balde de tinta, linha, etc.)
-- [ ] Histórico de ações (undo/redo)
-- [ ] Mais tamanhos de grade
-- [ ] Compartilhamento de artes
 
 ## 📝 Licença
 
