@@ -16,17 +16,31 @@
 }
 
 .palette {
-    position: absolute;
-    bottom: 0;
-    left: 125px;
-
     display: grid;
-    width: 250px;
-    height: 50px;
+    max-width: 600px;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    grid-template-columns: repeat(8, 1fr);
+    gap: 10px;
+    width: 100%;
+    margin: 0 auto;
 
-    grid-template-columns: repeat(4, 1fr);
 
     .color {
+        width: 50px;
+        height: 50px;
+        border: 2px solid #333;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: transform 0.1s, box-shadow 0.1s;
+
+        &:hover {
+            transform: scale(1.1);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
         &:nth-child(1) {
             background-color: tan;
         }
@@ -42,5 +56,105 @@
         &:nth-child(4) {
             background-color: black;
         }
+
+        &:nth-child(5) {
+            background-color: red;
+        }
+
+        &:nth-child(6) {
+            background-color: blue;
+        }
+
+        &:nth-child(7) {
+            background-color: yellow;
+        }
+
+        &:nth-child(8) {
+            background-color: purple;
+        }
+
+        &:nth-child(9) {
+            background-color: orange;
+        }
+
+        &:nth-child(10) {
+            background-color: pink;
+        }
+
+        &:nth-child(11) {
+            background-color: cyan;
+        }
+
+        &:nth-child(12) {
+            background-color: brown;
+        }
+
+        &:nth-child(13) {
+            background-color: gray;
+        }
+
+        &:nth-child(14) {
+            background-color: lime;
+        }
+
+        &:nth-child(15) {
+            background-color: navy;
+        }
+
+        &:nth-child(16) {
+            background-color: maroon;
+        }
     }
+
+    .color-picker {
+        width: 50px;
+        height: 50px;
+        border: 2px solid #333;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: transform 0.1s, box-shadow 0.1s;
+        padding: 0;
+        background: none;
+
+        &:hover {
+            transform: scale(1.1);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        &::-webkit-color-swatch-wrapper {
+            padding: 0;
+        }
+
+        &::-webkit-color-swatch {
+            border: none;
+            border-radius: 3px;
+        }
+    }
+}
+
+.export-btn {
+    padding: 12px 24px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.export-btn:hover {
+    background-color: #45a049;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.export-btn:active {
+    transform: translateY(0);
+}
+
+@media (max-width: 768px) {
+    
 }
