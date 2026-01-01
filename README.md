@@ -25,7 +25,7 @@ O **Pixel Art Editor** é uma aplicação web que permite criar arte pixelada em
 ### 💾 Exportação
 - **Exportar como PNG**: Gere uma imagem PNG de alta qualidade da sua arte
 - **Download automático**: A imagem é baixada automaticamente com timestamp único
-- **Resolução**: Imagens exportadas em 480x480px (20px por pixel)
+- **Resolução**: Imagens exportadas em 480x480px (20px por pixel)...
 
 ## 🚀 Como Usar
 
