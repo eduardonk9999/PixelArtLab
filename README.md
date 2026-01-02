@@ -33,7 +33,7 @@ O **Pixel Art Editor** é uma aplicação web que permite criar arte pixelada em
 2. **Selecionar cor**: Clique em uma das cores da paleta ou use o color picker para escolher uma cor personalizada
 3. **Pintar**: Clique nas células da grade para pintá-las com a cor selecionada
 4. **Apagar**: Clique novamente em uma célula pintada para apagá-la (torná-la transparente)
-5. **Exportar**: Clique no botão "Exportar PNG" para salvar sua criação
+5. **Exportar**: Clique no botão "Exportar PNG" para salvar sua criação.
 
 ## 🛠️ Tecnologias Utilizadas
 
